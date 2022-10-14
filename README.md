@@ -46,9 +46,5 @@ Kxxxb：待发布
 
 [Telegram 群组](https://t.me/+CLhpemKhaC8wZGIx)
 
-## Stars 增长记录
-
-[![Stargazers over time](https://starchart.cc/blog-misaka/koxray.svg)](https://starchart.cc/blog-misaka/koxray)
-
 ## License
 GNU Affero General Public License v3.0
