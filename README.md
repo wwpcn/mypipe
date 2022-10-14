@@ -6,7 +6,7 @@ Kxxxb：待发布
 
 # 请勿使用常用的账号部署此项目，以免封号！！
 
-关于本脚本加密sh文件的说明：由于某容器云已识别本脚本，故不得不加密项目的sh文件代码
+关于本脚本加密sh文件的说明：由于部分容器云已识别本脚本，故不得不加密项目的sh文件代码
 
 ## 大致部署步骤
 
@@ -48,7 +48,7 @@ Kxxxb：待发布
 
 ## Stars 增长记录
 
-[![Stargazers over time](https://starchart.cc/Misaka-blog/KOXray.svg)](https://starchart.cc/blog-misaka/koxray)
+[![Stargazers over time](https://starchart.cc/blog-misaka/koxray.svg)](https://starchart.cc/blog-misaka/koxray)
 
 ## License
 GNU Affero General Public License v3.0
