@@ -30,7 +30,7 @@ Kxxxb：待发布
 
 `DOCKER_PASSWORD`：Docker Hub 登录密码
 
-6. 运行Actions任务，编译Dockerfile
+6. 运行Actions任务，编译Dockerfile到Docker Hub中
 
 7. 打开容器云主页，按照提示创建一个应用
 
