@@ -34,6 +34,62 @@ Kxxxb：待发布
 
 7. 打开容器云主页，按照提示创建一个应用
 
+## 节点配置
+
+<details>
+<summary>xray</summary>
+
+```bash
+* 客户端下载：https://github.com/XTLS/Xray-core/releases
+* 代理协议：vless 或 vmess
+* 地址：appname.herokuapp.com
+* 端口：443
+* 默认UUID：24b4b1e1-7a89-45f6-858c-242cf53b5bdb
+* 加密：none
+* 传输协议：ws
+* 伪装类型：none
+* 路径：/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-vless // 默认vless使用/$uuid-vless，vmess使用/$uuid-vmess
+* 底层传输安全：tls
+```
+</details>
+  
+<details>
+<summary>trojan-go</summary>
+
+```bash
+* 客户端下载: https://github.com/p4gefau1t/trojan-go/releases
+{
+    "run_type": "client",
+    "local_addr": "127.0.0.1",
+    "local_port": 1080,
+    "remote_addr": "appname.herokuapp.com",
+    "remote_port": 443,
+    "password": [
+        "24b4b1e1-7a89-45f6-858c-242cf53b5bdb"
+    ],
+    "websocket": {
+        "enabled": true,
+        "path": "/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-trojan",
+        "host": "appname.herokuapp.com"
+    }
+}
+```
+</details>
+  
+<details>
+<summary>shadowsocks</summary>
+
+```bash
+* 客户端下载：https://github.com/shadowsocks/shadowsocks-windows/releases/
+* 服务器地址: appname.herokuapp.com
+* 端口: 443
+* 密码：password
+* 加密：chacha20-ietf-poly1305
+* 插件程序：xray-plugin_windows_amd64.exe  //需将插件https://github.com/shadowsocks/xray-plugin/releases下载解压后放至shadowsocks同目录
+* 插件选项: tls;host=appname.herokuapp.com;path=/24b4b1e1-7a89-45f6-858c-242cf53b5bdb-ss
+```
+</details>
+
 ## 注意
 
 请勿滥用本仓库
