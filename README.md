@@ -2,8 +2,6 @@
 
 在容器云部署Xray高性能代理服务，通过ws传输的(vmess、vless、trojan、shadowsocks、socks)等协议
 
-Kxxxb：待发布
-
 # 请勿使用常用的账号部署此项目，以免封号！！
 
 关于本脚本加密sh文件的说明：由于部分容器云已识别本脚本，故不得不加密项目的sh文件代码
